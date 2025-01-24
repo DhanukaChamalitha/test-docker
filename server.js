@@ -12,7 +12,7 @@ app.get("/test", (req,res)=>{
     res.send('{"response": "test,CICD"}')
 })
 app.get("/hook", (req,res)=>{
-    res.send('{"response": "test,hook"}')
+    res.send('{"response": "test,hooks"}')
 })
 
 app.listen(process.env.PORT || 3000, ()=>console.log("Server up and runnign on port 3000"))
